@@ -1,1 +1,1 @@
-# java-remote-environment
+# Spring Boot Pet Store
