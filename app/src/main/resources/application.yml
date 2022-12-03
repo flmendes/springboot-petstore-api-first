@@ -1,0 +1,18 @@
+spring:
+  main:
+    lazy-initialization: true
+
+  datasource:
+    url: jdbc:h2:mem:petstore
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+
+  jpa:
+    database: H2
+    hibernate:
+      ddl-auto: create-drop
+
+springdoc:
+  show-actuator: true
+  packagesToScan: "io.flmendes.petstore"

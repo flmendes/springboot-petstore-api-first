@@ -19,7 +19,7 @@
 
     <modules>
         <module>api</module>
-        <!--<module>app</module>-->
+        <module>app</module>
     </modules>
 
     <dependencyManagement>
